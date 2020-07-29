@@ -23,6 +23,8 @@ def draw_grid():
         pygame.draw.line(screen, (255, 255, 255), (0, line * w), (gridsize * w, line * w))
 
 
+hej = 0
+
 def draw():
     screen.fill((0, 0, 0))
     draw_grid()
